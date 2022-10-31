@@ -8,7 +8,7 @@ We focus on spatio-temporal graphs, characterized by static structures or topolo
 ![](img/graph_types.png)
 
 The process of training a message-passing graph neural network is depicted in the figure below, extracted from [1]. 
-THe message-passing step utilizes local information from neighbors to construct representations of the nodes in the graph. 
+The message-passing step utilizes local information from neighbors to construct representations of the nodes in the graph. 
 The message-passing operation has analogies with convolutional layers in computer vision models. Pooling operations simplify 
 the topology and facilitate the learning hierarchical representations of the graph data.
 Learning is understood as model optimization via stochastic optimizaton tools with a defined loss function [2,3]
